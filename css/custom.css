@@ -1,0 +1,151 @@
+.header-top-second-email {
+	color: white;
+	cursor: pointer;
+}
+.header-top-second-email:hover{
+	color: white;
+}
+.header-top-second-email:active{
+	color: white;
+}
+#logo_img {
+	max-height: 60px;
+}
+.subfooter {
+	background-color: #262626;
+	border: none;
+}
+.copyright-text{
+	color: #CECECE;
+}
+.search-field {
+	width: 100%;
+	height: 100%;
+}
+.width-100 {
+	width: 100%;
+}
+.width-45 {
+	width: 45%;
+}
+.width-50 {
+	width: 50%;
+}
+.size-50 {
+	width: 50px;
+	height: 50px;
+}
+.font-26 {
+	font-size: 26px;
+}
+.no-radius {
+	border-radius: 0;
+}
+#search-name {
+	height: 50px;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 0;
+}
+#search-name:focus{
+	border: 1px solid #ccc;
+	box-shadow: none;
+}
+#search-address {
+	height: 50px;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 0;
+}
+#search-address:focus {
+	border: 1px solid #ccc;
+	box-shadow: none;
+}
+#search-street {
+	height: 50px;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 0;
+}
+#search-street:focus{
+	border: 1px solid #ccc;
+	box-shadow: none;
+}
+#search-zip {
+	height: 50px;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 0;
+}
+#search-zip:focus {
+	border: 1px solid #ccc;
+	box-shadow: none;
+}
+#search-phone{
+	height: 50px;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 0;
+}
+#search-phone:focus {
+	border: 1px solid #ccc;
+	box-shadow: none;
+}
+
+@media (max-width: 767px) {
+	.response-width-search{
+		width: 100%;
+	}
+}
+
+@media (max-width: 991px) {
+	#account-div{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#signup-div{
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+	.pay-input1{
+		width:100%;
+	}
+	.first-menu1{
+		display: none;
+	}
+	#menu1-1{
+		display: block;
+	}
+}
+@media (min-width: 992px) {
+	#account-div{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+	#signup-div{
+		margin-top: 60px;
+		margin-bottom: 100px;
+	}
+	.pay-input1{
+		width:80px;
+	}
+	.first-menu1{
+		display: block;
+	}
+	#menu1-1{
+		display: none;
+	}
+}
+
+.body{
+	margin:20px;
+}
+.margin-top-20{
+	margin-top: 20px;
+}
+.pay-input1{
+	width:80px;
+}
+.footer-menu{
+	text-decoration: none;
+}
